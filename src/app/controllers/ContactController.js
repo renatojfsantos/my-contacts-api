@@ -5,6 +5,8 @@ class ContactController {
     const contacts = await ContactsRepository.findAll();
 
     response.json(contacts);
+    // retornar middleware
+    // response.send(request.appId);
   }
 
   async show(request, response) {
