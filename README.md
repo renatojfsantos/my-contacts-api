@@ -28,9 +28,9 @@ O projeto **MyContacts API** é uma API desenvolvida para gerenciar contatos. El
 │   │   ├── middlewares
 │   │   │   ├── cors.js                     # Configurações de CORS para a aplicação
 │   │   │   └── errorHandler.js             # Middleware para tratamento de erros
-│   │   ├── repositories
-│   │   │   ├── CategoriesRepository.js     # Gerencia as operações de dados para categorias
-│   │   │   └── ContactsRepository.js       # Gerencia as operações de dados para contatos
+│   │   └── repositories
+│   │       ├── CategoriesRepository.js     # Gerencia as operações de dados para categorias
+│   │       └── ContactsRepository.js       # Gerencia as operações de dados para contatos
 │   ├── database
 │   │   ├── index.js                        # Configuração e inicialização do banco de dados
 │   │   └── schema.sql                      # Script SQL para criação do esquema do banco de dados
